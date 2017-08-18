@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
-<testsuite name="Chrome 60.0.3112 (Mac OS X 10.12.6)" package="" timestamp="2017-08-18T01:04:50" id="0" hostname="Johns-MBP.home" tests="16" errors="0" failures="0" time="0.058">
+<testsuite name="Chrome 60.0.3112 (Mac OS X 10.12.5)" package="" timestamp="2017-08-18T13:48:16" id="0" hostname="MacBook-Air.local" tests="16" errors="0" failures="0" time="0.302">
   <properties>
-    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"/>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36"/>
   </properties>
-  <testcase name="The musingsApp module exists" time="0.003" classname="The musingsApp module"/>
-  <testcase name="The musingsController exitsts" time="0.018" classname="The musingsController"/>
-  <testcase name="The musingsController has a property &quot;musing&quot; that holds the return of `musings.all()`" time="0.004" classname="The musingsController"/>
-  <testcase name="The musingsController has a property `newMusing` that exists" time="0.001" classname="The musingsController"/>
+  <testcase name="The musingsApp module exists" time="0.102" classname="The musingsApp module"/>
+  <testcase name="The musingsController exists" time="0.111" classname="The musingsController"/>
+  <testcase name="The musingsController has a property `musings` that holds the return of `musings.all()`" time="0.009" classname="The musingsController"/>
+  <testcase name="The musingsController has a property `newMusing` that exists" time="0.004" classname="The musingsController"/>
   <testcase name="The musingsController has a property `newMusing` that is an object with properties `title`, `content`, and `author` that are initially empty stings" time="0.002" classname="The musingsController"/>
-  <testcase name="The musingsController has a method `createMusing` that will create a new musing in the musings service based on the value of the `newMusing` property" time="0.001" classname="The musingsController"/>
-  <testcase name="The musingsController has a method `deletedMusing` that takes an index and calls `musings.delete` with that index" time="0.003" classname="The musingsController"/>
-  <testcase name="The musings service exists" time="0.002" classname="The musings service"/>
+  <testcase name="The musingsController has a method `createMusing` that will create a new musing in the musings service based on the value of the `newMusing` property" time="0.003" classname="The musingsController"/>
+  <testcase name="The musingsController has a method `removeMusing` that takes an index and calls `musings.remove` with that index" time="0.004" classname="The musingsController"/>
+  <testcase name="The musings service exists" time="0.005" classname="The musings service"/>
   <testcase name="The musings service has a method &quot;.all&quot; that is a function" time="0.003" classname="The musings service"/>
-  <testcase name="The musings service has a method &quot;.all&quot; that returns an array" time="0.003" classname="The musings service"/>
-  <testcase name="The musings service has a method &quot;.all&quot; that returns an array with a length greater than 2" time="0.001" classname="The musings service"/>
-  <testcase name="The musings service has a method &quot;.all&quot; that returns an array where each element is an object with properties &quot;title&quot;, &quot;content&quot;, and &quot;author&quot;" time="0.003" classname="The musings service"/>
-  <testcase name="The musings service has a method &quot;.create&quot; that is a function" time="0.001" classname="The musings service"/>
-  <testcase name="The musings service has a method &quot;.create&quot; that takes an object and adds it to the array" time="0.003" classname="The musings service"/>
-  <testcase name="The musings service has a method &quot;.delete&quot; that is a function" time="0.007" classname="The musings service"/>
-  <testcase name="The musings service has a method &quot;.delete&quot; that takes an index and deletes the musing at that index of the musings array" time="0.003" classname="The musings service"/>
+  <testcase name="The musings service has a method &quot;.all&quot; that returns an array" time="0.008" classname="The musings service"/>
+  <testcase name="The musings service has a method &quot;.all&quot; that returns an array with a length greater than 2" time="0.007" classname="The musings service"/>
+  <testcase name="The musings service has a method &quot;.all&quot; that returns an array where each element is an object with properties &quot;title&quot;, &quot;content&quot;, and &quot;author&quot;" time="0.012" classname="The musings service"/>
+  <testcase name="The musings service has a method &quot;.create&quot; that is a function" time="0.014" classname="The musings service"/>
+  <testcase name="The musings service has a method &quot;.create&quot; that takes an object and adds it to the array" time="0.002" classname="The musings service"/>
+  <testcase name="The musings service has a method &quot;.remove&quot; that is a function" time="0.003" classname="The musings service"/>
+  <testcase name="The musings service has a method &quot;.remove&quot; that takes an index and deletes the musing at that index of the musings array" time="0.013" classname="The musings service"/>
   <system-out>
     <![CDATA[
 ]]>
